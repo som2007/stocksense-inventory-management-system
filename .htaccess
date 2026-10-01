@@ -1,0 +1,7 @@
+# Lets you open http://localhost/inventory-management-system/ directly (document root = project folder).
+# Best practice for production: point Apache's DocumentRoot at /public instead.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^$ public/ [L]
+  RewriteRule ^(?!public/)(.*)$ public/$1 [L]
+</IfModule>

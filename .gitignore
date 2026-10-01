@@ -1,0 +1,16 @@
+# Environment
+.env
+
+# Composer dependencies
+/vendor/
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+storage/cache/*
+!storage/cache/.gitkeep
+
+# OS files
+.DS_Store

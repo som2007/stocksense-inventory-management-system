@@ -1,0 +1,17 @@
+{
+    "name": "somen/inventory-management-system",
+    "autoload": {
+        "psr-4": {
+            "Somen\\InventoryManagementSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "som2007",
+            "email": "somendrakumarit356@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    }
+}
